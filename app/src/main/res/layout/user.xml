@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/prof2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="636dp"
+        android:onClick="prof"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_1221enable"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/rezult2"
+        android:layout_width="101dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="640dp"
+        android:onClick="rezult"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/analiz2"
+        android:layout_width="74dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="640dp"
+        android:onClick="analiz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource__"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/podderg2"
+        android:layout_width="95dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="636dp"
+        android:onClick="podderg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_21"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="Карта пациента"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="396dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="448dp"
+        android:background="#FFF4F4F8"
+        android:ems="10"
+        android:hint="Дата рождения (день месяц и год)"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="375dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="28dp"
+        android:text="Без карты пациента вы не сможете заказать анализы."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="398dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="280dp"
+        android:background="#B8B8B8"
+        android:backgroundTint="#F4F4F8"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="398dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="336dp"
+        android:background="#F4F4F8"
+        android:ems="10"
+        android:hint="Отчество"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="395dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="8dp"
+        android:text="В картах пациентов будут храниться результаты анализов вас и ваших близких."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="395dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="392dp"
+        android:background="#FFF4F4F8"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="394dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="507dp"
+        android:background="#FFF4F4F8"
+        android:ems="10"
+        android:hint="Пол"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="173dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="54dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fotoselect" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="#1A6FED"
+        android:onClick="save"
+        android:text="Сохранить"
+        android:textColor="#FEFEFE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
